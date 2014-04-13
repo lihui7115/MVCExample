@@ -21,6 +21,8 @@
 		BDA0D0BC18FAB7F300F74C92 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDA0D09E18FAB7F300F74C92 /* UIKit.framework */; };
 		BDA0D0C418FAB7F300F74C92 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BDA0D0C218FAB7F300F74C92 /* InfoPlist.strings */; };
 		BDA0D0C618FAB7F300F74C92 /* MVCExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BDA0D0C518FAB7F300F74C92 /* MVCExampleTests.m */; };
+		BDA0D0D118FAB83100F74C92 /* FGTaskCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BDA0D0D018FAB83100F74C92 /* FGTaskCell.m */; };
+		BDA0D0D418FAB90A00F74C92 /* FGTask.m in Sources */ = {isa = PBXBuildFile; fileRef = BDA0D0D318FAB90A00F74C92 /* FGTask.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		BDA0D0C118FAB7F300F74C92 /* MVCExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MVCExampleTests-Info.plist"; sourceTree = "<group>"; };
 		BDA0D0C318FAB7F300F74C92 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BDA0D0C518FAB7F300F74C92 /* MVCExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVCExampleTests.m; sourceTree = "<group>"; };
+		BDA0D0CF18FAB83100F74C92 /* FGTaskCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGTaskCell.h; sourceTree = "<group>"; };
+		BDA0D0D018FAB83100F74C92 /* FGTaskCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGTaskCell.m; sourceTree = "<group>"; };
+		BDA0D0D218FAB90A00F74C92 /* FGTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGTask.h; sourceTree = "<group>"; };
+		BDA0D0D318FAB90A00F74C92 /* FGTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGTask.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +123,10 @@
 				BDA0D0AC18FAB7F300F74C92 /* Main.storyboard */,
 				BDA0D0AF18FAB7F300F74C92 /* FGViewController.h */,
 				BDA0D0B018FAB7F300F74C92 /* FGViewController.m */,
+				BDA0D0CF18FAB83100F74C92 /* FGTaskCell.h */,
+				BDA0D0D018FAB83100F74C92 /* FGTaskCell.m */,
+				BDA0D0D218FAB90A00F74C92 /* FGTask.h */,
+				BDA0D0D318FAB90A00F74C92 /* FGTask.m */,
 				BDA0D0B218FAB7F300F74C92 /* Images.xcassets */,
 				BDA0D0A118FAB7F300F74C92 /* Supporting Files */,
 			);
@@ -252,7 +262,9 @@
 			files = (
 				BDA0D0A718FAB7F300F74C92 /* main.m in Sources */,
 				BDA0D0AB18FAB7F300F74C92 /* FGAppDelegate.m in Sources */,
+				BDA0D0D418FAB90A00F74C92 /* FGTask.m in Sources */,
 				BDA0D0B118FAB7F300F74C92 /* FGViewController.m in Sources */,
+				BDA0D0D118FAB83100F74C92 /* FGTaskCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
